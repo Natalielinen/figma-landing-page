@@ -1,0 +1,25 @@
+include button
+mixin listItem(linkText, linkRef)
+  li
+    a(href= linkRef)= linkText
+
+section.hero
+  header.hero__header
+    .hero__logo
+        a(href="#")
+          img(src="assets/logo.png" alt="logo" width="186" height="58")
+    nav.hero__nav
+      ul.hero__menu
+          +listItem('Home', '#')
+          +listItem('Product', '#')
+          +listItem('About', '#')
+          +listItem('Contact', '#')
+      a(class="hero__sign-up" href="#") Sign Up
+      div(class="hero__menu-btn")
+  p.hero__promo-title Find the Best Solution #[br] in Seconds
+  p.hero__promo-subtitle If debugging is the process of removing software bugs.
+  +button('#', 'white', 'get started')
+  +button('#', 'ghost', 'try for free')
+  .hero__screen
+      img(src="assets/screen-mobile.png" alt="screenshot" width="427" height="286")
+

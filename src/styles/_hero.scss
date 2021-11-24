@@ -1,0 +1,77 @@
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 25px 25px;
+  //appearance
+  background: linear-gradient(45deg, #37BDA6, #CB1AE8);
+
+  &__header {
+    margin-bottom: 79px;
+    display: flex;
+    justify-content: space-between
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    display: none;
+  }
+
+  &__menu-btn {
+    width: 44px;
+    height: 27px;
+    margin-left: 25px;
+    background: url("assets/burger.svg");
+    cursor: pointer;
+
+  }
+
+  &__sign-up {
+    display: inline-block;
+    padding: 18px 29px;
+    //appearance
+    border: 1px solid #ffffff;
+    border-radius: 39px;
+    //typography
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+
+  &__promo-title {
+    margin: 0 auto;
+    width: 307px;
+    color: #ffffff;
+    //typography
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+
+  &__promo-subtitle {
+    margin: 27px auto 0;
+    width: 334px;
+    color: #ffffff;
+    //typography
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+
+  &__screen {
+    width: 427px;
+    margin: 95px auto 0;
+  }
+}

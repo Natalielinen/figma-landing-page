@@ -1,0 +1,26 @@
+.btn {
+  display: block;
+  padding: 18px 0;
+  width: 252px;
+  margin: 0 auto;
+  border-radius: 39px;
+  text-align: center;
+  //typography
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.white {
+  margin-top: 55px;
+  background-color: white;
+  color: #112D57;
+}
+
+.ghost {
+  margin-top: 13px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
