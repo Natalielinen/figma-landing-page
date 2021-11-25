@@ -24,3 +24,32 @@
   background-color: transparent;
   border: 1px solid #ffffff;
 }
+
+.cyan {
+  background-color: #03D6F3;
+  width: 338px;
+  &-mini {
+    background-color: #03D6F3;
+    width: 147px;
+  }
+  &-fat {
+    width: 294px;
+    background-color: #03D6F3;
+    padding: 30px 0;
+  }
+}
+
+.cyan-border {
+  width: 338px;
+  margin-top: 22px;
+  border: 1px solid #03D6F3;
+  color: #03D6F3;
+  &-fat {
+    width: 294px;
+    margin-top: 22px;
+    padding: 30px 0;
+    border: 1px solid #03D6F3;
+    color: #03D6F3;
+
+  }
+}

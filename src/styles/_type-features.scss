@@ -1,0 +1,49 @@
+.type-features {
+  width: 100%;
+  height: auto;
+  padding: 58px 30px 48px;
+  margin-top: 47px;
+  text-align: center;
+
+  &__title {
+    width: 328px;
+    margin: 0 auto;
+    //typography
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+
+  &__paragraph {
+    width: 335px;
+    margin: 27px auto 0;
+    //typography
+    color: #5C5C5C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+
+  }
+
+  &__link {
+    display: block;
+    margin-left: 64px;
+    margin-top: 27px;
+    color: #000000;
+    text-align: left;
+  }
+
+  &__screen {
+    margin-top: 70px;
+  }
+
+  &__button {
+    margin-top: 60px;
+  }
+}
