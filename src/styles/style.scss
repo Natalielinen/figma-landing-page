@@ -5,3 +5,14 @@
 @import "process";
 @import "type-features";
 @import "solution";
+@import "pricing";
+@import "pricing-card";
+@import "subscribe";
+@import "footer";
+
+.divider {
+  width: 453px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #d2d2d2;
+}

@@ -1,0 +1,19 @@
+include button
+mixin pricingCard(title,  imageSrc, imageAlt, price, extraClass)
+  .pricing__card
+      h3.pricing__card__title= title
+      p.pricing__card__description Brief price Description
+      .pricing__card__image
+         img(src= imageSrc alt= imageAlt width="262" height="266")
+      .pricing__card__price
+         span.price= price
+         span(class = `dollar-sign ${extraClass}`) $
+         span.per-month Per/ month
+      .pricing__card__features
+         p Only 2 Operators
+         p Abandoned Cart
+         p Facebook & Instagram Ads
+         p Order Notifications
+         p Landing Pages
+      .pricing__card__button
+         +button("#", 'cyan-common', 'Order Now')

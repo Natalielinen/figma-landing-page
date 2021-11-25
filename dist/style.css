@@ -125,6 +125,11 @@ a {
   background-color: #03D6F3;
   padding: 30px 0;
 }
+.cyan-common {
+  background-color: #03D6F3;
+  padding: 18px 0;
+  width: 251px;
+}
 
 .cyan-border {
   width: 338px;
@@ -323,8 +328,259 @@ a {
   text-align: center;
 }
 .solution__screen {
-  margin-top: 79px;
+  width: 463px;
+  margin: 79px auto 0;
 }
 .solution__buttons {
   margin-top: 69px;
+}
+
+.pricing {
+  width: 100%;
+  height: auto;
+  padding: 60px 94px 94px 103px;
+  margin-top: 47px;
+}
+.pricing__title {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.pricing__paragraph {
+  margin-top: 22px;
+  margin-bottom: 65px;
+  color: #5C5C5C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.pricing__card {
+  width: 335px;
+  margin: 33px auto 0;
+  padding: 50px 33px 40px 40px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+}
+.pricing__card__title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.pricing__card__description {
+  width: 154px;
+  margin: 10px auto 0;
+  color: #5C5C5C;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.pricing__card__image {
+  margin-top: 30px;
+}
+.pricing__card__price {
+  width: 147px;
+  margin: 28px auto 0;
+  position: relative;
+}
+.pricing__card__price .price {
+  color: #03D6F3;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.pricing__card__price .dollar-sign {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  color: #03D6F3;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.pricing__card__price .dollar-sign.professional {
+  left: 65px;
+}
+.pricing__card__price .dollar-sign.business {
+  left: 75px;
+}
+.pricing__card__price .per-month {
+  display: inline-block;
+  margin-left: 10px;
+  color: #5C5C5C;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.pricing__card__features {
+  text-align: center;
+  margin-top: 18px;
+}
+.pricing__card__features p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+.pricing__card__button {
+  margin-top: 40px;
+}
+
+.subscribe {
+  width: 100%;
+  height: auto;
+  margin-top: 47px;
+  text-align: center;
+}
+.subscribe__title {
+  font-size: 46px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.subscribe__paragraph {
+  margin-top: 27px;
+  color: #5C5C5C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.subscribe__form {
+  width: 483px;
+  margin: 69px auto 0;
+}
+.subscribe__form input {
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #5C5C5C;
+  background-color: #EFEFEF;
+  border: 1px solid #D0D0D0;
+  border-radius: 7px;
+  outline: none;
+}
+.subscribe__form button {
+  width: 100%;
+  padding: 23px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #03D6F3;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #112D57;
+  margin-top: 47px;
+  padding: 52px 94px 86px 94px;
+  color: white;
+}
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__menu ul {
+  list-style: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.footer__menu ul li {
+  margin-top: 20px;
+}
+.footer__paragraph {
+  margin-top: 66px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.footer__map {
+  width: 334px;
+  margin: 87px auto 0;
+}
+.footer__contacts {
+  margin-top: 97px;
+}
+.footer__contacts p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.footer__contacts p .map-marker {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url("assets/marker.svg") 0 0 no-repeat;
+}
+.footer__contacts p .phone-icon {
+  display: inline-block;
+  width: 20px;
+  height: 32px;
+  background: url("assets/phone.svg") 0 0 no-repeat;
+}
+
+.divider {
+  width: 453px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #d2d2d2;
 }
