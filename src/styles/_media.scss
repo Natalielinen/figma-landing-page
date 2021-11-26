@@ -243,9 +243,6 @@
     margin-top: 0;
   }
 
-  .mobile-img {
-    display: none;
-  }
   .cyan {
     margin-right: 22px;
   }
@@ -275,19 +272,170 @@
   .type-features__link {
     margin-left: 185px;
   }
-  .desktop-img {
-    display: none;
-  }
+
 }
 
 @media (max-width: 767px) {
-  .desktop-img {
-    display: none;
-  }
+
 }
 
 @media (max-width: 479px) {
-  .desktop-img {
-    display: none;
+  .hero {
+    &__header {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__promo-title {
+      width: 292px;
+    }
+
+    &__promo-subtitle {
+      width: 300px;
+    }
+
+    &__screen {
+      width: 283px;
+      height: auto;
+      margin: 0;
+      img {
+        width: 100%;
+      }
+    }
   }
+
+  .features {
+    padding: 40px 30px;
+    &__title {
+      width: 100%;
+      font-size: 42px;
+    }
+
+    &__card {
+      width: 100%;
+      margin: 15px auto 0;
+      padding: 35px 25px 50px;
+
+      &__title {
+        width: 100%;
+      }
+
+      &__content {
+        width: 100%;
+      }
+
+      &.support {
+        width: 100%;
+      }
+    }
+  }
+
+  .process {
+    &__title {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__paragraph {
+      width: 100%;
+    }
+
+    &__screen {
+      width: 283px;
+      height: auto;
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .type-features {
+    &__title {
+      width: 100%;
+    }
+
+    &__paragraph {
+      width: 100%;
+    }
+
+    &__screen {
+      width: 283px;
+      height: auto;
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .solution {
+    &__title {
+      width: 100%;
+    }
+
+    &__paragraph {
+      width: 100%;
+    }
+
+    &__screen {
+      width: 283px;
+      height: auto;
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .pricing {
+    padding: 15px;
+    &__title {
+      width: 100%;
+    }
+
+    &__paragraph {
+      width: 100%;
+    }
+
+    &__card {
+      width: 290px;
+      padding: 15px;
+    }
+
+  }
+  .subscribe {
+    &__form {
+      width: 290px;
+    }
+  }
+
+  .footer {
+    padding: 15px;
+
+    &__map {
+      width: 283px;
+      height: auto;
+      margin: 10px 0 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__contacts {
+      margin-top: 40px;
+    }
+  }
+
+
+  .btn {
+    width: 250px;
+  }
+
 }
