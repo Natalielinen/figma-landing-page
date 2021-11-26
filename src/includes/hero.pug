@@ -9,17 +9,21 @@ section.hero
         a(href="#")
           img(src="assets/logo.png" alt="logo" width="186" height="58")
     nav.hero__nav
-      ul.hero__menu
+      ul.hero__menu.hidden
           +listItem('Home', '#')
           +listItem('Product', '#')
           +listItem('About', '#')
           +listItem('Contact', '#')
+    div.hero__menu-buttons
       a(class="hero__sign-up" href="#") Sign Up
       div(class="hero__menu-btn")
   p.hero__promo-title Find the Best Solution #[br] in Seconds
   p.hero__promo-subtitle If debugging is the process of removing software bugs.
-  +button('#', 'white', 'get started')
-  +button('#', 'ghost', 'try for free')
+  .hero__buttons
+    +button('#', 'white', 'get started')
+    +button('#', 'ghost', 'try for free')
   .hero__screen
-      img(src="assets/screen-mobile.png" alt="screenshot" width="427" height="286")
+      img(src="assets/screen-mobile.png" alt="screenshot" width="427" height="286" class="mobile-img")
+      img(src="assets/screen-desktop.png" alt="screenshot" width="1085" height="670" class="desktop-img")
+
 

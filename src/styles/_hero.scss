@@ -17,7 +17,22 @@
   }
 
   &__menu {
-    display: none;
+    position: absolute;
+    top: 90px;
+    left: 80%;
+    background-color: #CB1AE8;
+    list-style: none;
+    padding: 10px 15px;
+    z-index: 1000;
+
+    li {
+      margin-top: 5px;
+    }
+  }
+
+  &__menu-buttons {
+    display: flex;
+    align-items: center;
   }
 
   &__menu-btn {
@@ -42,6 +57,7 @@
     line-height: 16px;
     letter-spacing: 0.2px;
     text-align: left;
+    vertical-align: middle;
   }
 
   &__promo-title {
@@ -74,4 +90,8 @@
     width: 427px;
     margin: 95px auto 0;
   }
+}
+
+.hidden {
+  display: none;
 }

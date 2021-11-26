@@ -66,14 +66,44 @@
         background: url("assets/marker.svg") 0 0 no-repeat;
       }
 
+      &:last-child {
+        margin-top: 20px;
+      }
+
       .phone-icon {
         display: inline-block;
-        width: 20px;
-        height: 32px;
-        background: url("assets/phone.svg") 0 0 no-repeat;
+        width: 46px;
+        height: 46px;
+        background: url("assets/phone.svg") 10px 10px no-repeat;
 
       }
 
+    }
+
+    .social {
+      display: flex;
+      list-style: none;
+      margin-top: 45px;
+
+      li {
+        display: block;
+        width: 34px;
+        height: 34px;
+        margin-left: 35px;
+
+        &.twitter {
+          background: url("assets/twitter.svg") 0 0 no-repeat;
+          margin-left: 0;
+        }
+
+        &.facebook {
+          background: url("assets/facebook.svg") 0 0 no-repeat;
+        }
+
+        &.linkedin {
+          background: url("assets/linkedin.svg") 0 0 no-repeat;
+        }
+      }
     }
   }
 }
