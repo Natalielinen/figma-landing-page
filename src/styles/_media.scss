@@ -1,20 +1,16 @@
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .hero {
-    &__header {
-      width: 1080px;
-      margin: 0 auto;
-    }
-
     &__menu {
       display: flex;
       position: static;
       background-color: transparent;
+      box-shadow: none;
+      border-radius: 0;
 
       li {
         margin-left: 51px;
       }
     }
-
 
     &__menu-btn {
       display: none;
@@ -37,14 +33,12 @@
 
     &__buttons {
       display: flex;
+      justify-content: space-between;
       width: 400px;
       align-items: center;
       margin: 71px auto 0;
     }
 
-    &__screen {
-      width: 1080px;
-    }
   }
 
   .features {
@@ -56,6 +50,12 @@
 
     &__cards {
       display: flex;
+      flex-wrap: wrap;
+      margin-top: 101px;
+    }
+
+    &__card {
+      margin-top: 0;
     }
   }
 
@@ -64,20 +64,21 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    align-items: center;
+    align-items: end;
+    justify-items: start;
 
-
-    &__title {
-      width: 494px;
+    &__description {
+      width: 100%;
+      grid-column: 1/2;
     }
 
-    &__paragraph {
-      width: 477px;
+    &__title {
+      margin-bottom: 46px;
     }
 
     &__buttons {
       display: flex;
-      margin: 0;
+      margin-top: 36px;
       align-items: center;
       justify-content: center;
       align-self: start;
@@ -88,11 +89,12 @@
 
     &__screen {
       grid-row: 1/3;
+      grid-column: 2/3;
     }
 
   }
 
-  .type-features {
+  .type-features {// to fix
     margin-top: 51px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -270,8 +272,10 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-
+@media (width: 1024px) {
+  .collaborative {
+    margin-top: 45px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -295,6 +299,7 @@
         height: auto;
       }
     }
+
   }
 
   .features {
@@ -307,7 +312,6 @@
 
     &__card {
       width: 100%;
-      margin: 15px auto 0;
       padding: 35px 25px 50px;
 
       &__title {
@@ -325,23 +329,13 @@
   }
 
   .process {
+
     &__title {
       width: 100%;
-      text-align: center;
     }
 
     &__paragraph {
       width: 100%;
-    }
-
-    &__screen {
-      width: 283px;
-      height: auto;
-      margin: 0;
-
-      img {
-        width: 100%;
-      }
     }
 
   }
@@ -355,7 +349,11 @@
       width: 100%;
     }
 
-    &__screen {
+    &__link {
+     margin-left: 0;
+    }
+
+    &__screen { //to fix
       width: 283px;
       height: auto;
       margin: 0;
@@ -433,4 +431,13 @@
     width: 250px;
   }
 
+}
+
+@media (max-width: 320px) {
+  .hero {
+    &__sign-up {
+      font-size: 14px;
+      padding: 16px 14px;
+    }
+  }
 }

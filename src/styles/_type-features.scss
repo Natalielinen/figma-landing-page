@@ -1,34 +1,22 @@
 .type-features {
   width: 100%;
   height: auto;
-  padding: 58px 30px 48px;
+  padding: 58px 6% 48px;
   margin-top: 47px;
-  text-align: center;
 
   &__title {
     width: 328px;
     margin: 0 auto;
-    //typography
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 57px;
-    letter-spacing: 0.2px;
+    @include title-typography;
     text-align: left;
   }
 
   &__paragraph {
     width: 335px;
     margin: 27px auto 0;
-    //typography
     color: #5C5C5C;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0.2px;
+    @include paragraph-typography;
     text-align: left;
-
   }
 
   &__link {
@@ -39,7 +27,7 @@
     text-align: left;
   }
 
-  &__screen {
+  &__screen {//to fix
     width: 463px;
     height: auto;
     margin-top: 70px;

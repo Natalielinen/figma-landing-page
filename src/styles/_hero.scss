@@ -2,11 +2,11 @@
   width: 100%;
   height: auto;
   padding: 25px 5%;
-  //appearance
-  background: linear-gradient(45deg, #37BDA6, #CB1AE8);
+  @include gradient;
 
   &__header {
-    margin-bottom: 79px;
+    width: 100%;
+    margin: 0 auto 79px;
     display: flex;
     justify-content: space-between
   }
@@ -16,11 +16,14 @@
     align-items: center;
   }
 
-  &__menu {//переделать
+  &__menu {
     position: absolute;
+    width: 95%;
     top: 90px;
-    left: 80%;
-    background-color: #CB1AE8;
+    left: 2%;
+    background-color: #bc1ad7;
+    box-shadow: 0 0 14px #232323;
+    border-radius: 6px;
     list-style: none;
     padding: 10px 15px;
     z-index: 1000;
@@ -74,4 +77,6 @@
     }
   }
 }
+
+
 

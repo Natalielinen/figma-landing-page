@@ -8,13 +8,11 @@
   &__title {
     width: 282px;
     margin: 0 auto;
-    //typography
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    text-align: center;
+    @include title-typography;
+  }
+
+  &__cards {
+    margin-top: 45px;
   }
 
   &__card {
@@ -25,11 +23,14 @@
     border: 1px solid #dedede;
     box-shadow: 0 4px 31px 0 #00000026;
 
+    &:first-child {
+      margin-top: 0;
+    }
+
     .icon {
       width: 62px;
       height: 62px;
       margin: 0 auto 22px;
-      background-color: #37BDA6;
 
       &.light {
         background: url("assets/light.svg") 0 0 no-repeat;
@@ -45,44 +46,33 @@
     }
 
     &__title {
-      font-size: 29px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 33px;
-      letter-spacing: 0.1px;
-      text-align: center;
+      @include card-title-typography;
 
     }
 
     &__content {
       width: 281px;
       margin: 30px auto;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 27px;
-      letter-spacing: 0.2px;
-      text-align: center;
-      color: #5C5C5C;
-
+      color: $darkgray;
+      @include card-content-typography;
     }
 
     a {
-      color: #03D6F3;
+      color: $cyan;
     }
 
     &.support {
       width: 406px;
       box-shadow: none;
-      background: linear-gradient(45deg, #37BDA6, #CB1AE8);
-      color: white;
+      @include gradient;
+      color: $white;
 
       p {
-        color: white;
+        color: $white;
       }
 
       a {
-        color: white;
+        color: $white;
       }
     }
 
