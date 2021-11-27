@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   height: auto;
-  padding: 25px 25px;
+  padding: 25px 5%;
   //appearance
   background: linear-gradient(45deg, #37BDA6, #CB1AE8);
 
@@ -16,7 +16,7 @@
     align-items: center;
   }
 
-  &__menu {
+  &__menu {//переделать
     position: absolute;
     top: 90px;
     left: 80%;
@@ -41,62 +41,37 @@
     margin-left: 25px;
     background: url("assets/burger.svg");
     cursor: pointer;
-
   }
 
   &__sign-up {
     display: inline-block;
     padding: 18px 29px;
-    //appearance
     border: 1px solid #ffffff;
     border-radius: 39px;
-    //typography
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-    text-align: left;
-    vertical-align: middle;
+   @include button-typography;
   }
 
   &__promo-title {
     margin: 0 auto;
-    width: 307px;
+    width: 77%;
     color: #ffffff;
-    //typography
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    text-align: center;
+    @include title-typography;
   }
 
   &__promo-subtitle {
     margin: 27px auto 0;
-    width: 334px;
+    width: 77%;
     color: #ffffff;
-    //typography
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    text-align: center;
+    @include paragraph-typography;
   }
 
   &__screen {
-    width: 427px;
+    width: 78%;
     height: auto;
-    margin: 95px auto 0;
+    margin: 95px 11% 50px 11%;
     img {
-      width: 100%;
-      height: 100%;
+      @include image-sizes;
     }
   }
 }
 
-.hidden {
-  display: none;
-}

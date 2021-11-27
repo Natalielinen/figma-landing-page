@@ -14,10 +14,14 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 .hero {
   width: 100%;
   height: auto;
-  padding: 25px 25px;
+  padding: 25px 5%;
   background: linear-gradient(45deg, #37BDA6, #CB1AE8);
 }
 .hero__header {
@@ -75,11 +79,10 @@ a {
   line-height: 16px;
   letter-spacing: 0.2px;
   text-align: left;
-  vertical-align: middle;
 }
 .hero__promo-title {
   margin: 0 auto;
-  width: 307px;
+  width: 77%;
   color: #ffffff;
   font-size: 46px;
   font-style: normal;
@@ -90,7 +93,7 @@ a {
 }
 .hero__promo-subtitle {
   margin: 27px auto 0;
-  width: 334px;
+  width: 77%;
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -100,17 +103,13 @@ a {
   text-align: center;
 }
 .hero__screen {
-  width: 427px;
+  width: 78%;
   height: auto;
-  margin: 95px auto 0;
+  margin: 95px 11% 50px 11%;
 }
 .hero__screen img {
   width: 100%;
-  height: 100%;
-}
-
-.hidden {
-  display: none;
+  height: auto;
 }
 
 .btn {
@@ -1058,28 +1057,13 @@ a {
   }
 }
 @media (max-width: 479px) {
-  .hero__header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .hero__promo-title {
-    width: 292px;
-  }
-  .hero__promo-subtitle {
-    width: 300px;
-  }
-  .hero__screen {
-    width: 283px;
+  .hero__logo {
+    width: 130px;
     height: auto;
-    margin: 0;
   }
-  .hero__screen img {
+  .hero__logo img {
     width: 100%;
+    height: auto;
   }
 
   .features {
