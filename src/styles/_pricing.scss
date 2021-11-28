@@ -1,32 +1,19 @@
 .pricing {
   width: 100%;
   height: auto;
-  padding: 60px 94px 94px 103px;
+  padding: 60px 94px  103px 94px;
   margin-top: 47px;
 
   &__title {
     width: 340px;
     margin: 0 auto;
-    //typography
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    text-align: center;
+    @include title-typography;
   }
 
   &__paragraph {
     margin-top: 22px;
     margin-bottom: 65px;
-    //typography
-    color: #5C5C5C;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.2px;
-    text-align: center;
+    @include card-content-typography;
 
   }
 }

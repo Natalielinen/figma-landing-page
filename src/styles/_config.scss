@@ -75,3 +75,12 @@ a {
   width: 100%;
   height: auto;
 }
+
+@mixin price-description-typography {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
