@@ -567,7 +567,7 @@ a {
   border: none;
   border-radius: 6px;
   background-color: #03D6F3;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -583,7 +583,7 @@ a {
   background-color: #112D57;
   margin-top: 47px;
   padding: 52px 18% 86px 18%;
-  color: white;
+  color: #ffffff;
 }
 .footer__menu {
   display: -webkit-box;
@@ -595,12 +595,13 @@ a {
 }
 .footer__menu ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0.2px;
   text-align: center;
+  font-size: 15px;
 }
 .footer__menu ul li {
   margin-top: 20px;
@@ -632,11 +633,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0.2px;
+  text-align: center;
+  font-size: 15px;
   text-align: left;
 }
 .footer__contacts p .map-marker {

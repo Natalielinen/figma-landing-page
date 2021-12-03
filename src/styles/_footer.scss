@@ -1,10 +1,10 @@
 .footer {
   width: 100%;
   height: auto;
-  background-color: #112D57;
+  background-color: $darkblue;
   margin-top: 47px;
   padding: 52px 18% 86px 18%;
-  color: white;
+  color: $white;
 
   &__menu {
     display: flex;
@@ -13,13 +13,8 @@
 
     ul {
       list-style: none;
-      //typography
+      @include card-content-typography;
       font-size: 15px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 27px;
-      letter-spacing: 0.2px;
-      text-align: center;
 
       li {
         margin-top: 20px;
@@ -48,12 +43,8 @@
     p {
       display: flex;
       align-items: center;
-      //typography
+      @include card-content-typography;
       font-size: 15px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 27px;
-      letter-spacing: 0.2px;
       text-align: left;
 
       .map-marker {
