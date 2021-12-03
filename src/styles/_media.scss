@@ -254,12 +254,20 @@
     margin-top: 0;
   }
 
+  .white:hover {
+    @include button-animation(#000000)
+  }
+
   .ghost {
     margin-top: 0;
   }
 
   .cyan {
     margin-right: 22px;
+  }
+
+  .cyan-common:hover {
+    @include button-animation(darken($cyan, 20%))
   }
 
   .cyan-border {
@@ -275,6 +283,14 @@
     width: 216px;
     padding: 18px 0;
     margin-left: 7px;
+  }
+
+  .card:hover {
+    @include card-animation;
+  }
+
+  .social-icon:hover {
+    @include social-animation;
   }
 
 }

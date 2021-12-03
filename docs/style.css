@@ -123,17 +123,18 @@ a {
   width: 252px;
   margin: 0 auto;
   border-radius: 39px;
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.2px;
+  text-align: left;
+  text-align: center;
 }
 
 .white {
   margin-top: 55px;
-  background-color: white;
+  background-color: #ffffff;
   color: #112D57;
 }
 
@@ -1081,12 +1082,28 @@ a {
     margin-top: 0;
   }
 
+  .white:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 1px solid #000000;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
   .ghost {
     margin-top: 0;
   }
 
   .cyan {
     margin-right: 22px;
+  }
+
+  .cyan-common:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 1px solid #027d8e;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   .cyan-border {
@@ -1102,6 +1119,21 @@ a {
     width: 216px;
     padding: 18px 0;
     margin-left: 7px;
+  }
+
+  .card:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .social-icon:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    opacity: 0.7;
   }
 }
 @media (width: 1024px) {

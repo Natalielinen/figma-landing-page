@@ -4,42 +4,38 @@
   width: 252px;
   margin: 0 auto;
   border-radius: 39px;
+  @include button-typography;
   text-align: center;
-  //typography
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.2px;
+
 }
 
 .white {
   margin-top: 55px;
-  background-color: white;
-  color: #112D57;
+  background-color: $white;
+  color: $darkblue;
 }
 
 .ghost {
   margin-top: 13px;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid $white;
 }
 
 .cyan {
-  background-color: #03D6F3;
+  background-color: $cyan;
   width: 338px;
   &-mini {
-    background-color: #03D6F3;
+    background-color: $cyan;
     width: 147px;
   }
   &-fat {
     width: 294px;
-    background-color: #03D6F3;
+    background-color: $cyan;
     padding: 30px 0;
   }
 
   &-common {
-    background-color: #03D6F3;
+    background-color: $cyan;
     padding: 18px 0;
     width: 94%;
 
@@ -49,14 +45,14 @@
 .cyan-border {
   width: 338px;
   margin-top: 22px;
-  border: 1px solid #03D6F3;
-  color: #03D6F3;
+  border: 1px solid $cyan;
+  color: $cyan;
   &-fat {
     width: 294px;
     margin-top: 22px;
     padding: 30px 0;
-    border: 1px solid #03D6F3;
-    color: #03D6F3;
+    border: 1px solid $cyan;
+    color: $cyan;
 
   }
 }

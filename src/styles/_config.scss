@@ -1,5 +1,6 @@
 $cyan: #03D6F3;
 $blue: #37BDA6;
+$darkblue: #112D57;
 $purple: #CB1AE8;
 $white: #ffffff;
 $darkgray: #5C5C5C;
@@ -8,6 +9,7 @@ $darkgray: #5C5C5C;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -83,4 +85,22 @@ a {
   line-height: 18px;
   letter-spacing: 0.1px;
   text-align: left;
+}
+
+@mixin button-animation($borderColor) {
+  transform: scale(1.1);
+  border: 1px solid $borderColor;
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin card-animation {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin social-animation {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+  opacity: 0.7;
+
 }
